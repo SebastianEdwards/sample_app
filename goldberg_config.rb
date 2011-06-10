@@ -5,5 +5,5 @@ Project.configure do |config|
   config.environment_variables = {"FOO" => "bar"}
   # config.after_build Proc.new { |build, project| `touch ~/Desktop/actually_built`}
   config.timeout = 10.minutes
-  config.command = 'rake db:migrate && rake spec' #to be used if you're using anything other than rake
+  # config.command = 'rake db:migrate && rake spec' #to be used if you're using anything other than rake
 end
