@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "users/index"
+
   get "sessions/new"
 
   resources :users
